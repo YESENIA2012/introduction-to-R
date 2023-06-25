@@ -34,4 +34,5 @@ plot(muestra)
 mean(muestra)
 sd(muestra)
 
+#Hacer un histograma
 hist(muestra, breaks = 30)

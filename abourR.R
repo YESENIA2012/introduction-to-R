@@ -11,7 +11,7 @@ sum(array2)
 #Esta también es una forma de sumar todos los elementos de un arreglo
 10*11/2
 
-#Como sacar la media aritmetica de algo
+#Como sacar la media aritmética de algo
 
 media <- sum(array2)/length(array2)
 mean(array2)
@@ -19,7 +19,7 @@ mean(array2)
 #Como sacar la varianza de algo
 var(array2)
 
-#Como sacar la raiz cuadrada de la varianza, osea desviación estandar
+#Como sacar la raiz cuadrada de la varianza, osea desviación estándar
 
 sqrt(var(array2))
 
