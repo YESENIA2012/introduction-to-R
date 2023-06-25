@@ -1,4 +1,7 @@
-df <- data.frame('edad'= c(10,11,15,22,35,30,41,37), 'salario'= c(100,120,220, 1300, 5400,4200,12000,6200))
+#Crear una base de datos
+df <- data.frame(
+  'edad'= c(10,11,15,22,35,30,41,37), 
+  'salario'= c(100,120,220, 1300, 5400,4200,12000,6200))
 mediaDfEdad = mean(df$edad)
 desviacionEstandarEdad = sd(df$edad)
 mediaDfESalario = mean(df$salario)
@@ -21,7 +24,8 @@ summary(model1)
 
 prediccion <- data.frame('edad' = c(1:24))
 
-predict(model1,prediccion)
+#me hace una predicción y me muestra la gráfica
+plot(predict(model1,prediccion))
 
 #simular datos
 muestra <- rnorm(5000,25,12.5)
